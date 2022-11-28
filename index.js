@@ -1,4 +1,4 @@
-const template = '##h2 title \n Some text here! [link Text](https://google.com "primary") without to see how <br/> it works <br/> out inthe parser ya know. \n [Other link](https://test.com "secondary") And what about some more **bold** *italic* text and using ###h3 Image \n ![Placehold.it 200x200 image](https://img.freepik.com/premium-photo/image-planet-outer-space-mixed-media-elements-image-furnished-by-nasa_641298-3434.jpg?w=1060)';
+const template = '##h2 title \n Some text here! [link Text](https://google.com "primary") without to see how <br/> it works <br/> out inthe parser ya know. \n [Other link](https://github.com/ "secondary") And what about some more **bold** *italic* text and using ###h3 Image \n ![Placehold.it 200x200 image](https://img.freepik.com/premium-photo/image-planet-outer-space-mixed-media-elements-image-furnished-by-nasa_641298-3434.jpg?w=1060)';
 
 const output = document.createElement('div');
 output.classList.add('output');
