@@ -1,0 +1,48 @@
+:root {
+--base-color: #444;
+--grey: #f1f1f1;
+--padding-m: 40px 80px;
+}
+
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font: 400 16px 'Ubuntu';
+  color: var(--base-color);
+  line-height: 1.5em;
+}
+
+.output {
+	width: 500px;
+	padding: 10px 15px;
+	margin: 0 auto;
+}
+
+.output img {
+	max-width: 200px;
+}
+
+a.primary {
+	color: violet;
+}
+
+a.secondary {
+	color: green;
+}
+
+.example {
+	display: block;
+	width: 500px;
+	padding: 10px 15px;
+	margin: 15px auto;
+}
