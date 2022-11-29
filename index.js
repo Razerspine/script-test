@@ -10,7 +10,7 @@ ${parseTemplate(template)}
 document.body.appendChild(output);
 const code = document.createElement('code');
 code.classList.add('example');
-code.innerText = output.outerHTML;
+code.innerText = parseTemplate(template);
 document.body.appendChild(code);
 
 function parseTemplate(md) {
